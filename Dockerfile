@@ -1,4 +1,4 @@
-from alpine
+FROM alpine
 # Paste from: for i in {1..1000}; do echo "RUN echo $i > $i.txt"; done | pbcopy
 RUN echo 1 > 1.txt
 RUN echo 2 > 2.txt
